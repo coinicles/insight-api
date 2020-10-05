@@ -21,9 +21,9 @@
 * [Stake](#stake-statistic)
 * [Total Supply](#total-supply-statistic)
 
-A CICO blockchain REST and web socket API service for [Cicocore Node](https://github.com/cicoproject/cicocore-node).
+A CICO blockchain REST and web socket API service for [Cicocore Node](https://github.com/coinicles/cicocore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/cicoproject/cico-explorer.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/coinicles/cico-explorer.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
     ```  
 2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  
 
-3. Install cico https://github.com/cicoproject/cico - with bitcore and ZMQ ! 
+3. Install cico https://github.com/coinicles/cico - with bitcore and ZMQ ! 
 
     ```bash
     # with ZMQ
@@ -46,13 +46,13 @@ This is a backend-only service. If you're looking for the web frontend applicati
 4. Install cicocore-node  
 
     ```bash
-    npm i https://github.com/cicoproject/cicocore-node.git#master
+    npm i https://github.com/coinicles/cicocore-node.git#master
 
     $(npm bin)/cicocore-node create mynode
 
     cd mynode
 
-    $(npm bin)/cicocore-node install https://github.com/cicoproject/insight-api.git#master
+    $(npm bin)/cicocore-node install https://github.com/coinicles/insight-api.git#master
     ```  
 5. Edit cicocore-node.json  
 
@@ -130,7 +130,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 There add-on service available to extend the functionality of Cicocore:
 
-- [CICO Explorer](https://github.com/cicoproject/cico-explorer)
+- [CICO Explorer](https://github.com/coinicles/cico-explorer)
 
 ## Prerequisites
 
